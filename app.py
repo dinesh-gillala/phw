@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import logging
 
+#logger for logging the messages
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
