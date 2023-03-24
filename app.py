@@ -7,6 +7,7 @@ logger.setLevel(logging.INFO)
 
 app = Flask(__name__)
 
+#comments for testing out other features of codepipeline
 @app.route('/')
 def hello_world():
     return "Hello World"
